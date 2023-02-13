@@ -28,12 +28,15 @@ public class ArrayList{
                     break;
                 case 3:
                     for(int i:myArray){
-                        logger.info(i+"");
+                        String s=String.valueOf(i);
+                        logger.info(s);
                     }
                     break;
                 case 4:
                     op=10;
                     break;
+                default:
+                    logger.info("Something went Wrong");
 
             }
         }
